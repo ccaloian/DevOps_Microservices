@@ -8,6 +8,7 @@ dockerpath="ccaloian/boston-housing"
   
 # Authenticate & tag
 echo "Docker ID and Image: $dockerpath"
+docker login --username $DOCKERHUB_USER --password $DOCKERHUB_PASSWORD
 docker tag boston-housing-prediction-app $dockerpath
 
 # Push image to a docker repository
