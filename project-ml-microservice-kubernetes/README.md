@@ -15,7 +15,7 @@ Operationalize a a pre-trained `sklearn` machine learning model as a microservic
 * `requirements.txt` contains Python environment requirements
 * `run_docker.sh` contains commands to build the Docker image, list current Docker images, and run the containerized application.
 * `run_kubernetes.sh` contains commands to run the application on Kubernetes (you need to have a Kubernetes cluster running, _e.g._ `minikube start`)
-* `upload_docker.sh` contains commands to tag and upload the image on DockerHub
+* `upload_docker.sh` contains commands to tag and upload the image on DockerHub (__Note:__ This requires you to have `$DOCKERHUB_USER` and `$DOCKERHUB_PASSWORD` defined in your environment)
 
 ---
 
